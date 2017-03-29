@@ -14,12 +14,20 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starterd-data-redis</artifactId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starterd-redis</artifactId>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.2.4</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.zkzong.springboot</groupId>
+            <artifactId>mysql</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
     </dependencies>
 </project>
