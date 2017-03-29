@@ -38,7 +38,7 @@ public class MysqlTest {
     @Autowired
     private RoleRepository roleRepository;
 
-//    @Before
+    @Before
     public void initData() {
         userRepository.deleteAll();
         roleRepository.deleteAll();
