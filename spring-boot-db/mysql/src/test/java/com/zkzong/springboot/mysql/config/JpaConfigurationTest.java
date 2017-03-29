@@ -1,9 +1,7 @@
 package com.zkzong.springboot.mysql.config;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -18,8 +16,8 @@ import java.util.Properties;
 /**
  * Created by Zong on 2017/3/28.
  */
-@Configuration
-@EnableJpaRepositories(basePackages = "com.zkzong.springboot.**.repository")
+//@Configuration
+//@EnableJpaRepositories(basePackages = "com.zkzong.springboot.**.repository")
 public class JpaConfigurationTest {
 
     @Bean
